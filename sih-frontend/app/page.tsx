@@ -8,8 +8,8 @@ export default function Home() {
   const [result, setResult] = useState<any>(null);
 
   // REPLACE THIS with your actual Oracle VM Public IP and port 8000
-  const BACKEND_URL = "http://80.225.241.2:8000/api/audit-label";
-
+  //const BACKEND_URL = "http://80.225.241.2:8000/api/audit-label";
+ const BACKEND_URL= "https://bidder-medications-civic-sunny.trycloudflare.com";
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       const selected = e.target.files[0];
